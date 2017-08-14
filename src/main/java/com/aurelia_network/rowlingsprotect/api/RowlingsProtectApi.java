@@ -100,11 +100,17 @@ public class RowlingsProtectApi {
 
         Bukkit.getLogger().warning(player.getName() + " joined with WDL. Beginning command dispatch...");
 
-        for (String command : getWdlJoinCommands()) {
-            boolean dispatched = Bukkit.dispatchCommand(Bukkit.getConsoleSender(), command.replaceAll("$name", player.getName()));
+        List<String> cmds = new ArrayList<String>();
 
-            if (dispatched) Bukkit.getLogger().info("Dispatched " + command + " on " + player.getName());
-            else Bukkit.getLogger().severe("Failed to dispatch " + command + " on " + player.getName());
+        for (String command : commands) {
+            cmds.add(command.replaceAll("%name%", player.getName()));
+        }
+
+        for (String command : cmds) {
+            boolean dispatched = Bukkit.dispatchCommand(Bukkit.getConsoleSender(), command);
+
+            if (dispatched) Bukkit.getLogger().info("Dispatched " + command);
+            else Bukkit.getLogger().severe("Failed to dispatch " + command);
         }
 
         notifyAdmins(getPrefix() + "§aSuccessfully caught §2" + player.getName() + " §ausing WDL mods and dispatched commands on them.", Sound.ENTITY_PLAYER_LEVELUP);

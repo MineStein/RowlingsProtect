@@ -32,6 +32,9 @@ public class RowlingsProtectPlugin extends JavaPlugin {
         api = new RowlingsProtectApi(this);
         pluginMessageListener = new PluginMessageListener(this);
 
+        getConfig().options().copyDefaults(true);
+        saveConfig();
+
         registerPluginMessageListeners();
         registerListeners();
         registerCommands();

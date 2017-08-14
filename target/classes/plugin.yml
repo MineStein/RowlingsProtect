@@ -1,0 +1,11 @@
+name: RowlingsProtect
+version: 1.0.0
+main: com.aurelia_network.rowlingsprotect.RowlingsProtectPlugin
+
+description: Protecting Rowling's Realm from abusers of commands and WDL mods.
+website: http://aurelia-network.com
+authors: [Tyler Grissom]
+
+commands:
+  rowlingsprotect:
+    description: View plugin info or reload configs.

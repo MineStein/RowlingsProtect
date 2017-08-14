@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35889277-a826-4b6a-afbb-b8de5b2bce08" name="Default" comment="" />
+    <list default="true" id="35889277-a826-4b6a-afbb-b8de5b2bce08" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/RowlingsProtect_jar2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/RowlingsProtectPlugin.java" afterPath="$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/RowlingsProtectPlugin.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/api/RowlingsProtectApi.java" afterPath="$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/api/RowlingsProtectApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/config.yml" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,15 +24,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="RowlingsProtectPlugin.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RowlingsProtectPlugin.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/RowlingsProtectPlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+            <state relative-caret-position="350">
+              <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2208#2209#0" expanded="true" />
-                <element signature="e#2297#2298#0" expanded="true" />
+                <element signature="e#2281#2282#0" expanded="true" />
+                <element signature="e#2370#2371#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,17 +42,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
-              <caret line="13" column="100" lean-forward="true" selection-start-line="13" selection-start-column="100" selection-end-line="13" selection-end-column="100" />
+              <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RowlingsProtectApi.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RowlingsProtectApi.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/api/RowlingsProtectApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="84" column="27" lean-forward="false" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+            <state relative-caret-position="500">
+              <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#793#794#0" expanded="true" />
@@ -57,6 +64,7 @@
                 <element signature="e#1914#1922#0" expanded="true" />
                 <element signature="e#2533#2534#0" expanded="true" />
                 <element signature="e#2609#2610#0" expanded="true" />
+                <element signature="e#3133#3141#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,6 +79,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -81,15 +92,15 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/api/RowlingsProtectAPI.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/command/RPCmd.java" />
         <option value="$PROJECT_DIR$/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/command/RowlingsProtectCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/listener/CommandListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/api/RowlingsProtectApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/listener/JoinListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/listener/PluginMessageListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/RowlingsProtectPlugin.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/api/RowlingsProtectApi.java" />
       </list>
     </option>
   </component>
@@ -293,9 +304,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Servers/DevFiles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Servers/1.12.1/plugins" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager">
@@ -527,12 +538,13 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -571,8 +583,8 @@
           <caret line="67" column="84" lean-forward="false" selection-start-line="67" selection-start-column="84" selection-end-line="67" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2208#2209#0" expanded="true" />
-            <element signature="e#2297#2298#0" expanded="true" />
+            <element signature="e#2281#2282#0" expanded="true" />
+            <element signature="e#2370#2371#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -590,9 +602,9 @@
         <state relative-caret-position="325">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#580#581#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -602,7 +614,7 @@
         <state relative-caret-position="500">
           <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -612,7 +624,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -640,6 +652,7 @@
             <element signature="e#1914#1922#0" expanded="true" />
             <element signature="e#2533#2534#0" expanded="true" />
             <element signature="e#2609#2610#0" expanded="true" />
+            <element signature="e#3133#3141#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -650,8 +663,8 @@
           <caret line="67" column="84" lean-forward="false" selection-start-line="67" selection-start-column="84" selection-end-line="67" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2208#2209#0" expanded="true" />
-            <element signature="e#2297#2298#0" expanded="true" />
+            <element signature="e#2281#2282#0" expanded="true" />
+            <element signature="e#2370#2371#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -669,9 +682,9 @@
         <state relative-caret-position="325">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#580#581#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -681,7 +694,7 @@
         <state relative-caret-position="500">
           <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -701,7 +714,7 @@
         <state relative-caret-position="125">
           <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -729,6 +742,7 @@
             <element signature="e#1914#1922#0" expanded="true" />
             <element signature="e#2533#2534#0" expanded="true" />
             <element signature="e#2609#2610#0" expanded="true" />
+            <element signature="e#3133#3141#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -739,8 +753,8 @@
           <caret line="67" column="84" lean-forward="false" selection-start-line="67" selection-start-column="84" selection-end-line="67" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2208#2209#0" expanded="true" />
-            <element signature="e#2297#2298#0" expanded="true" />
+            <element signature="e#2281#2282#0" expanded="true" />
+            <element signature="e#2370#2371#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -758,9 +772,9 @@
         <state relative-caret-position="325">
           <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#580#581#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -770,7 +784,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -790,7 +804,7 @@
         <state relative-caret-position="125">
           <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -818,6 +832,7 @@
             <element signature="e#1914#1922#0" expanded="true" />
             <element signature="e#2533#2534#0" expanded="true" />
             <element signature="e#2609#2610#0" expanded="true" />
+            <element signature="e#3133#3141#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -856,40 +871,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/api/RowlingsProtectApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="84" column="27" lean-forward="false" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#1365#1366#0" expanded="true" />
-            <element signature="e#1415#1416#0" expanded="true" />
-            <element signature="e#1914#1922#0" expanded="true" />
-            <element signature="e#2533#2534#0" expanded="true" />
-            <element signature="e#2609#2610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/command/RowlingsProtectCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="100" lean-forward="true" selection-start-line="13" selection-start-column="100" selection-end-line="13" selection-end-column="100" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,7 +886,7 @@
         <state relative-caret-position="475">
           <caret line="32" column="73" lean-forward="false" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -908,9 +896,9 @@
         <state relative-caret-position="575">
           <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#544#545#0" expanded="false" />
+            <element signature="e#580#581#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -925,12 +913,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/RowlingsProtectPlugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="350">
+          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2208#2209#0" expanded="true" />
-            <element signature="e#2297#2298#0" expanded="true" />
+            <element signature="e#2281#2282#0" expanded="true" />
+            <element signature="e#2370#2371#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/aurelia_network/rowlingsprotect/api/RowlingsProtectApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="117" column="0" lean-forward="true" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1914#1922#0" expanded="true" />
+            <element signature="e#2533#2534#0" expanded="true" />
+            <element signature="e#2609#2610#0" expanded="true" />
+            <element signature="e#3133#3141#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -941,7 +957,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>RowlingsProtect:jar</last-edited>
+          <last-edited>RowlingsProtect:jar2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
