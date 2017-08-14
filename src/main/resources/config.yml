@@ -1,0 +1,14 @@
+admin-permission: 'rowlingsprotect.admin'
+
+protected-commands:
+  - 'plugins'
+  - 'pl'
+  - 'version'
+  - 'icanhasbukkit'
+  - 'ver'
+  - 'about'
+  - '?'
+
+wdl-join-commands:
+  - 'ban $name &4&lBanned! &r&7You have a world downloader mod installed!'
+  - 'broadcast $name &cBanned &4&l$name &cfor attempting to join with a world downloader installed!'

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="RowlingsProtect:jar">
+    <output-path>$PROJECT_DIR$/../../../Servers/DevFiles</output-path>
+    <root id="archive" name="RowlingsProtect.jar">
+      <element id="module-output" name="RowlingsProtect" />
+    </root>
+  </artifact>
+</component>
