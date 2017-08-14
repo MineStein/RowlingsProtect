@@ -90,21 +90,12 @@ public class RowlingsProtectApi {
     }
 
     public void executeWdlJoinCommands(OfflinePlayer player) {
-        List<String> commands = getWdlJoinCommands();
-
-        if (commands == null || commands.isEmpty()) {
-            notifyAdmins(getPrefix() + "§4" + player.getName() + " §cjoined with a WDL mod but was not punished. Re-configure configuration.", Sound.ENTITY_GHAST_HURT);
-
-            return;
-        }
-
         Bukkit.getLogger().warning(player.getName() + " joined with WDL. Beginning command dispatch...");
 
         List<String> cmds = new ArrayList<String>();
 
-        for (String command : commands) {
-            cmds.add(command.replaceAll("%name%", player.getName()));
-        }
+        cmds.add("ban " + player.getName() + " §4§lBanned! §7You joined with a WDL modification.\n\n§3Appeal at §bhttp://aurelia-network.com/banappeal");
+        cmds.add("broadcast §cBanned §4" + player.getName() + " §cfor joining with a WDL modification.");
 
         for (String command : cmds) {
             boolean dispatched = Bukkit.dispatchCommand(Bukkit.getConsoleSender(), command);
