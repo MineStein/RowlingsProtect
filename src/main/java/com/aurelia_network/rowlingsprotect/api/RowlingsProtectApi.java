@@ -134,7 +134,7 @@ public class RowlingsProtectApi {
 
         List<String> cmds = new ArrayList<String>();
 
-        cmds.add("ban " + player.getName() + " §4§lBanned! §7You joined with a WDL modification.\n\n§3Appeal at §bhttp://aurelia-network.com/banappeal");
+        cmds.add("ban " + player.getName() + " \n§7You joined with a WDL modification.\n\n§3Appeal at §bhttp://aurelia-network.com/banappeal");
         cmds.add("broadcast §cBanned §4" + player.getName() + " §cfor joining with a WDL modification.");
 
         for (String command : cmds) {

@@ -2,7 +2,6 @@ package com.aurelia_network.rowlingsprotect.command;
 
 import com.aurelia_network.rowlingsprotect.RowlingsProtectPlugin;
 import com.aurelia_network.rowlingsprotect.api.RowlingsProtectApi;
-import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -31,7 +30,7 @@ public class RowlingsProtectCommand implements CommandExecutor {
             return true;
         }
 
-        String pluginInfo = api.getPrefix() + "§7Server is running §6§lRowlingsProtect &7version &e" + plugin.getDescription().getVersion();
+        String pluginInfo = api.getPrefix() + "§7Server is running §6§lRowlingsProtect §7version §e" + plugin.getDescription().getVersion();
 
         if (args.length == 0) {
             sender.sendMessage(pluginInfo);
