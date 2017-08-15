@@ -9,6 +9,10 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.permissions.Permission;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -89,8 +93,44 @@ public class RowlingsProtectApi {
         return plugin.getConfig().getStringList("wdl-join-commands");
     }
 
+    private void logToFile(String file, String message) {
+        try {
+            File dataFolder = plugin.getDataFolder();
+
+            if(!dataFolder.exists()) {
+                dataFolder.mkdir();
+            }
+
+            File saveTo = new File(plugin.getDataFolder(), file + ".txt");
+
+            if (!saveTo.exists()) {
+                saveTo.createNewFile();
+            }
+
+            FileWriter fw = new FileWriter(saveTo, true);
+
+            PrintWriter pw = new PrintWriter(fw);
+
+            pw.println(message);
+
+            pw.flush();
+
+            pw.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void logWdl(OfflinePlayer player) {
+        long unixTime = System.currentTimeMillis() / 1000;
+
+        logToFile("wdl-log.txt", "At " + unixTime + " " + player.getName() + " joined with WDL.");
+    }
+
     public void executeWdlJoinCommands(OfflinePlayer player) {
         Bukkit.getLogger().warning(player.getName() + " joined with WDL. Beginning command dispatch...");
+
+        logWdl(player);
 
         List<String> cmds = new ArrayList<String>();
 
